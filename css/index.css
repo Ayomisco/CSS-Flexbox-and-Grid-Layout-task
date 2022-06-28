@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@800&family=Lexend+Deca:wght@200&display=swap'); 
+:root{
+    --color1: hsl(31, 77%, 52%);
+    --color2: hsl(184, 100%, 22%);
+    --color3: hsl(179, 100%, 13%);
+    --paragraph: hsla(0, 0%, 100%, 0.75);
+    --bg_hd_btn: hsl(0, 0%, 95%);
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    z-index: 0;
+    background-color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 100px;
+}
+
+.row{
+    padding: 40px;
+    text-align: left;
+}
+
+.first-item{
+    background-color: var(--color1);
+}
+
+.second-item {
+    background-color: var(--color2);
+}
+
+.third-item {
+    background-color: var(--color3);
+}
+
+img{
+    width: 60px;
+    height: 40px;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Text', cursive;
+    color: var(--bg_hd_btn);
+}   
+
+.content{
+    color: var(--paragraph);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+
+.btn1{
+    background-color: var(--bg_hd_btn);
+    border-radius: 70px;
+    /* padding: 13px; */
+    width: 121px;
+    height: 50px;
+    border: none;
+    margin-top: 50px;
+    color: var(--color1);
+    font-size: 14px;
+    font-weight: bolder;
+
+}
+
+.btn2 {
+    background-color: var(--bg_hd_btn);
+    border-radius: 70px;
+    /* padding: 13px; */
+    width: 121px;
+    height: 50px;
+    border: none;
+    margin-top: 50px;
+    color: var(--color2);
+    font-size: 14px;
+    font-weight: bolder;
+
+}
+
+.btn3 {
+    background-color: var(--bg_hd_btn);
+    border-radius: 70px;
+    /* padding: 13px; */
+    width: 121px;
+    height: 50px;
+    border: none;
+    margin-top: 50px;
+    color: var(--color3);
+    font-size: 14px;
+    font-weight: bolder;
+
+}
+
+.btn1:hover {
+    background-color: var(--color1);
+    color: var(--bg_hd_btn);
+    border-color: var(--bg_hd_btn);
+    border-width: 3px;
+    border-style: solid;
+
+}
+
+.btn2:hover {
+    background-color: var(--color2);
+    color: var(--bg_hd_btn);
+    border-color: var(--bg_hd_btn);
+    border-width: 3px;
+    border-style: solid;
+
+}
+
+.btn3:hover{
+    background-color: var(--color3);
+    color: var(--bg_hd_btn);
+    border-color: var(--bg_hd_btn);
+    border-width: 3px;
+    border-style: solid;
+
+}
+
+
+@media (max-width: 375px) {
+    .container{flex-direction: column;
+        flex: 100%;
+    }
+}
+
+
+
