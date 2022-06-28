@@ -17,12 +17,15 @@ body{
 .container{
     display: flex;
     flex-direction: row;
-    margin: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
 }
 
 .row{
     padding: 40px;
     text-align: left;
+    width: 300px;
 }
 
 .first-item{
@@ -56,6 +59,37 @@ img{
     font-size: 14px;
     font-weight: 400;
     
+}
+
+.grid{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+.grid > .link {
+    background-color: var(--color3);
+    border-radius: 70px;
+    padding: 17px;
+    /* padding: 13px; */
+    /* width: 300px;
+    height: 200px; */
+    border: none;
+    margin-top: 50px;
+    color: var(--bg_hd_btn);
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+
+}
+
+.link:hover {
+    background-color: var(--bg_hd_btn);
+    color: var(--color3);
+    border-color: var(--color3);
+    border-width: 3px;
+    border-style: solid;
+
 }
 
 .btn1{
